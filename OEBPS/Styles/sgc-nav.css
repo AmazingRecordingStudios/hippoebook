@@ -1,0 +1,50 @@
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#title {
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#greekWordList {
+  text-align: center;
+  padding: 10px;
+  font-size: 32px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#greekShortText {
+  text-align: center;
+  padding: 10px;
+  font-size: 32px;
+}
+
+#greekLongText {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#citationRef {
+  text-align: center;
+  padding: 2px;
+}
+
+#case {
+  color: #00FF00; /* green */
+}
