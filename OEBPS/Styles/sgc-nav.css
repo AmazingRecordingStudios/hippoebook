@@ -30,6 +30,9 @@ ol {
   text-align: center;
   padding: 10px;
   font-size: 32px;
+  text-indent: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 #greekLongText {
@@ -41,10 +44,54 @@ ol {
 }
 
 #citationRef {
+  align-self: center;
   text-align: center;
   padding: 2px;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-#case {
+#phonetics {
+  align-self: center;
+  padding: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#translation {
+  align-self: center;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+}
+
+#linguisticNote {
+  align-self: center;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+}
+
+#eeComment {
+  align-self: center;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+}
+
+span.case {
   color: #00FF00; /* green */
 }
