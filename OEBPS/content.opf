@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>[Main title here]</dc:title>
-    <meta property="dcterms:modified">2020-08-12T02:54:08Z</meta>
+    <meta property="dcterms:modified">2020-08-12T17:27:21Z</meta>
     <meta property="media:duration" refines="#s001">0:00:02.844</meta>
     <meta property="media:duration">0:00:02.844</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
@@ -17,6 +17,8 @@
     <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="p002" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
     <item id="Od.6.8-ekasandron.mp3" href="Audio/Od.6.8-ekasandron.mp3" media-type="audio/mpeg"/>
+    <item id="epigram64_asclepiades.mp3" href="Audio/ancientgreek_epigram64_asclepiades_zd.mp3" media-type="audio/mpeg"/>
+    <item id="odyssey6_01_homer.mp3" href="Audio/odyssey6_01_homer.mp3" media-type="audio/mpeg"/>
   </manifest>
   <spine>
     <itemref idref="p001"/>
