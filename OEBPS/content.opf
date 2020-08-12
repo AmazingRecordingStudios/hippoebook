@@ -3,15 +3,16 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
-    <dc:title>[Main title here]</dc:title>
-    <meta property="dcterms:modified">2020-08-12T17:45:05Z</meta>
+    <dc:title>hippo ebooks</dc:title>
+    <meta property="dcterms:modified">2020-08-13T01:19:32Z</meta>
     <meta property="media:duration" refines="#s001">0:00:02.844</meta>
     <meta property="media:duration">0:00:02.844</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
+    <meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
     <meta content="1.3.0" name="Sigil version" />
   </metadata>
   <manifest>
-    <item id="p001" href="Text/Section0001.xhtml" media-type="application/xhtml+xml" media-overlay="s001"/>
+    <item id="p001" href="Text/Section0001.xhtml" media-type="application/xhtml+xml" media-overlay="s001" properties="scripted"/>
     <item id="s001" href="Misc/Section0001.xhtml.smil" media-type="application/smil+xml"/>
     <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
     <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -19,6 +20,7 @@
     <item id="Od.6.8-ekasandron.mp3" href="Audio/Od.6.8-ekasandron.mp3" media-type="audio/mpeg"/>
     <item id="epigram64_asclepiades.mp3" href="Audio/ancientgreek_epigram64_asclepiades_zd.mp3" media-type="audio/mpeg"/>
     <item id="odyssey6_01_homer.mp3" href="Audio/odyssey6_01_homer.mp3" media-type="audio/mpeg"/>
+    <item id="playback.js" href="Misc/playback.js" media-type="application/javascript"/>
   </manifest>
   <spine>
     <itemref idref="p001"/>

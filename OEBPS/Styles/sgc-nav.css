@@ -99,3 +99,11 @@ span.case {
 .-epub-media-overlay-active {
    background-color: green ; /*#FFFF99*/ /* #FFFF00 */
 }
+
+.-epub-media-overlay-playing {
+	/* background-color: #FFFF00; */
+}
+
+.jsplaying {
+	background-color: #FFFF00;
+}
