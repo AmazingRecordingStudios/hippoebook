@@ -26,7 +26,7 @@ ol {
   margin-left: 10px;
 }
 
-#greekShortText {
+p.greekShortText {
   text-align: center;
   padding: 10px;
   font-size: 32px;
