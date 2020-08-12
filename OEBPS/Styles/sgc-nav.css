@@ -95,3 +95,7 @@ p.greekShortText {
 span.case {
   color: #00FF00; /* green */
 }
+
+.-epub-media-overlay-active {
+   background-color: green ; /*#FFFF99*/ /* #FFFF00 */
+}

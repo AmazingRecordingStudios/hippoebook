@@ -3,10 +3,11 @@
 	version="3.0">
  <body>
   <seq 
+	id="ch1"
 	epub:textref="../Text/Section0001.xhtml"
 	epub:type="bodymatter chapter">
 
-   <par>
+   <par id="phrase1">
 		<text src="../Text/Section0001.xhtml#f001"/>
 		<audio 
 			src="../Audio/Od.6.8-ekasandron.mp3"
