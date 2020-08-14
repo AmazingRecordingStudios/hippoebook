@@ -12,13 +12,13 @@ ol {
 
 p {
 font-family: "literata";
-//font-size: 1.00em;
-//text-align: justify;
+/*font-size: 1.00em;
+//text-align: justify;*/
 }
 
 @font-face {
 font-family: "literata";
-font-weight: normal;//400
+font-weight: normal;/*400*/
 font-style: normal;
 src: url(../Fonts/Literata-Regular.ttf);
 }
