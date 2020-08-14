@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebooks</dc:title>
-    <meta property="dcterms:modified">2020-08-13T02:13:29Z</meta>
+    <meta property="dcterms:modified">2020-08-14T18:24:35Z</meta>
     <meta property="media:duration" refines="#s001">0:00:02.844</meta>
     <meta property="media:duration">0:00:02.844</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
@@ -21,6 +21,7 @@
     <item id="epigram64_asclepiades.mp3" href="Audio/ancientgreek_epigram64_asclepiades_zd.mp3" media-type="audio/mpeg"/>
     <item id="odyssey6_01_homer.mp3" href="Audio/odyssey6_01_homer.mp3" media-type="audio/mpeg"/>
     <item id="playback.js" href="Misc/playback.js" media-type="application/javascript"/>
+    <item id="Literata-Regular.ttf" href="Fonts/Literata-Regular.ttf" media-type="font/ttf"/>
   </manifest>
   <spine>
     <itemref idref="p001"/>
