@@ -3,6 +3,7 @@
 var jsPlayingClass = "jsplaying";
 var fileNameAttribute = 'data-audio-file';
 var defaultAudio = new Audio('../Audio/odyssey6_01_homer.mp3');
+var audios = new Map();
 
 defaultAudio.onended = function() {
     element.classList.remove(jsPlayingClass);
@@ -35,21 +36,38 @@ function togglePlayPauseAudio(element) {
 }
 
 function isPausedOrStopped(element) {
-	var audio = getDefaultAudioForTesting(element);
+	//var audio = getDefaultAudioForTesting(element);
 
 	var isPlaying = element.classList.contains(jsPlayingClass);
 
 	return  !(isPlaying); // || audio.paused
 }
 
-function getAudio(element) {
+function getAudioFullPath(element) {
 	var audioDirPath = '../Audio/';
 
 	var audioFileName = element.getAttribute(fileNameAttribute);
-	var audio = new Audio(audioDirPath + audioFileName);
+	var audioFullPath = audioDirPath + audioFileName;
+
+	return audioFullPath;
+}
+
+function getAudio(element) {
+	var audioFullPath = getAudioFullPath(element);
+	var audio;
+
+	// check if audio is already loaded
+	if(audios.has(audioFullPath)) {
+		audio = audios.get(audioFullPath);
+	}
+	else { 
+		audio = new Audio(audioFullPath);
+		audios.set(audioFullPath, audio);
+	}
 
 	audio.onended = function() {
   		element.classList.remove(jsPlayingClass);
+		audios.delete(audioFullPath);
 	};
 
 	return audio;
