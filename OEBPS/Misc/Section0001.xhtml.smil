@@ -1,19 +1,14 @@
-<smil xmlns="http://www.w3.org/ns/SMIL" 
-	xmlns:epub="http://www.idpf.org/2007/ops" 
-	version="3.0">
- <body>
-  <seq 
-	id="ch1"
-	epub:textref="../Text/Section0001.xhtml"
-	epub:type="bodymatter chapter">
-
-   <par id="phrase1">
+<?xml version="1.0" encoding="utf-8" ?>
+<smil version="3.0" xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops">
+<body>
+	<seq 
+		epub:textref="../Text/Section0001.xhtml" 
+		epub:type="bodymatter chapter" 
+		id="ch1">
+	<par id="phrase1">
 		<text src="../Text/Section0001.xhtml#f001"/>
-		<audio 
-			src="../Audio/Od.6.8-ekasandron.mp3"
-			clipBegin="00:00:00.000" 
-			clipEnd="00:00:02.844" />
+		<audio clipBegin="00:00:00.000" clipEnd="00:00:02.844" src="../Audio/Od.6.8-ekasandron.mp3"/>
 	</par>
-  </seq>
- </body>
+	</seq>
+</body>
 </smil>
