@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebooks</dc:title>
-    <meta property="dcterms:modified">2020-08-15T14:00:06Z</meta>
+    <meta property="dcterms:modified">2020-08-15T14:02:36Z</meta>
     <meta property="media:duration" refines="#s001">0:00:02.844</meta>
     <meta property="media:duration">0:00:02.844</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
