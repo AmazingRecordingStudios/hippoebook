@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebooks</dc:title>
-    <meta property="dcterms:modified">2020-08-14T21:41:18Z</meta>
+    <meta property="dcterms:modified">2020-08-15T13:39:33Z</meta>
     <meta property="media:duration" refines="#s001">0:00:02.844</meta>
     <meta property="media:duration">0:00:02.844</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
@@ -15,17 +15,21 @@
     <item id="p001" href="Text/Section0001.xhtml" media-type="application/xhtml+xml" media-overlay="s001" properties="scripted"/>
     <item id="s001" href="Misc/Section0001.xhtml.smil" media-type="application/smil+xml"/>
     <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
-    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml"/>
     <item id="p002" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
     <item id="Od.6.8-ekasandron.mp3" href="Audio/Od.6.8-ekasandron.mp3" media-type="audio/mpeg"/>
     <item id="epigram64_asclepiades.mp3" href="Audio/ancientgreek_epigram64_asclepiades_zd.mp3" media-type="audio/mpeg"/>
     <item id="odyssey6_01_homer.mp3" href="Audio/odyssey6_01_homer.mp3" media-type="audio/mpeg"/>
     <item id="playback.js" href="Misc/playback.js" media-type="application/javascript"/>
     <item id="Literata-Regular.ttf" href="Fonts/Literata-Regular.ttf" media-type="font/ttf"/>
+    <item id="CopyrightNotce.xhtml" href="Text/CopyrightNotce.xhtml" media-type="application/xhtml+xml"/>
+    <item id="HomeScreen" href="Text/HomeScreen.xhtml" media-type="application/xhtml+xml" properties="nav"/>
   </manifest>
   <spine>
     <itemref idref="p001"/>
     <itemref idref="nav.xhtml" linear="no"/>
     <itemref idref="p002"/>
+    <itemref idref="CopyrightNotce.xhtml"/>
+    <itemref idref="HomeScreen"/>
   </spine>
 </package>

@@ -1,3 +1,11 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+
 nav#landmarks {
     display:none;
 }
@@ -8,7 +16,12 @@ nav#page-list {
 
 ol {
     list-style-type: none;
+	text-align: center;
+	list-style-position: inside;
+	margin-left: 0; 
+	padding-left: 0;
 }
+
 
 p {
 font-family: "literata";
@@ -21,6 +34,55 @@ font-family: "literata";
 font-weight: normal;/*400*/
 font-style: normal;
 src: url(../Fonts/Literata-Regular.ttf);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: start;
+  align-items: center;
+/*  align-content: stretch;*/
+  /*height: 400px;*/
+
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+
+#mainQuote {
+/*	justify-self: start;
+	align-self: center;*/
+}
+
+#navButtons {
+/*	align-self: center;
+	justify-self: center;*/
+}
+
+p.greekMainTitle {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+p.quoteTranslation {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+p.quoteCitation {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #title {
