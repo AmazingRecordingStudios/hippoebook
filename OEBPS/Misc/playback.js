@@ -81,13 +81,20 @@ function getDefaultAudioForTesting(element) {
 function opencontextmenu(element) {
 	var menu = document.getElementById('menu');
 	menu.style.display = 'block';
-
-        // overwrite the right click event
-        document.addEventListener("contextmenu", showMenuEventListener);
-
+        
        // close the menu on document click
         // TODO verify if the click is in the menu boundaries
         document.addEventListener("click", hideMenuEventListener);
+
+		function hideMenuEventListener(e) {
+			/*menu.style.display = 'none';
+			document.removeEventListener("click", hideMenuEventListener);*/
+		}
+
+		/*
+		// overwrite the right click event
+        document.addEventListener("contextmenu", showMenuEventListener);
+
 
 		function showMenuEventListener(e) {
             e.preventDefault();         
@@ -97,10 +104,5 @@ function opencontextmenu(element) {
             menu.style.left = e.x + 'px';
             menu.style.top = e.y + 'px';   
 		}
-
-
-		function hideMenuEventListener(e) {
-			menu.style.display = 'none';
-			document.removeEventListener("click", hideMenuEventListener);
-		}
+		*/
 }
