@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-16T15:18:14Z</meta>
+    <meta property="dcterms:modified">2020-08-16T15:59:41Z</meta>
     <meta property="media:duration" refines="#s001">0:00:02.844</meta>
     <meta property="media:duration">0:00:02.844</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
@@ -29,6 +29,7 @@
     <item id="cover" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="Credits" href="Text/Credits.xhtml" media-type="application/xhtml+xml"/>
     <item id="About" href="Text/About.xhtml" media-type="application/xhtml+xml"/>
+    <item id="News" href="Text/News.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover"/>
@@ -39,5 +40,6 @@
     <itemref idref="p002"/>
     <itemref idref="Credits"/>
     <itemref idref="About"/>
+    <itemref idref="News"/>
   </spine>
 </package>
