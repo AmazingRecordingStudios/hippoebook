@@ -87,7 +87,7 @@ p.quoteCitation {
   margin-bottom: 0px;
 }
 
-#title {
+.title {
   text-align: center;
   padding: 10px;
   font-size: 24px;
@@ -95,7 +95,7 @@ p.quoteCitation {
   margin-left: 10px;
 }
 
-#greekWordList {
+p.greekWordList {
   text-align: center;
   padding: 10px;
   font-size: 32px;
@@ -112,7 +112,7 @@ p.greekShortText {
   margin-bottom: 0px;
 }
 
-#greekLongText {
+p.greekLongText {
   text-align: center;
   padding: 10px;
   font-size: 20px;
@@ -131,7 +131,7 @@ p.greekShortText {
   margin-bottom: 0px;
 }
 
-#phonetics {
+p.phonetics {
   align-self: center;
   padding: 2px;
   margin-right: 10px;
@@ -139,12 +139,12 @@ p.greekShortText {
   font-size: 20px;
 }
 
-#translation {
-  align-self: center;
+p.translation {
+  text-align: center;
   padding: 10px;
   margin-right: 10px;
   margin-left: 10px;
-  text-align: justify;
+  /*text-align: justify;*/
   text-justify: inter-word;
   font-size: 20px;
 }

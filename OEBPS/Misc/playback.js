@@ -106,3 +106,35 @@ function opencontextmenu(element) {
 		}
 		*/
 }
+
+function removeEmptyQuoteElements() {
+	var titleClass = "title";
+	var greekWordListClass = "greekWordList";
+	var greekShortTextClass = "greekShortText";
+	var greekLongTextClass = "greekLongText";
+	var phoneticsClass = "phonetics";
+
+	removeEmptyElements(titleClass);
+	removeEmptyElements(greekWordListClass);
+	removeEmptyElements(greekShortTextClass);
+	removeEmptyElements(greekLongTextClass);
+	removeEmptyElements(phoneticsClass);
+}
+
+function removeEmptyElements(elementClass) {
+	var filteredElements = document.getElementsByClassName(elementClass);
+
+	var index;
+	for (index in filteredElements) {
+	  var element = filteredElements[index];
+	  if(isEmpty(element)) {
+		element.style.display = 'none';
+	  }
+	}
+}
+
+function isEmpty(element) {
+	var innerHtml = element.innerHTML;
+	
+	return innerHtml === "";
+}
