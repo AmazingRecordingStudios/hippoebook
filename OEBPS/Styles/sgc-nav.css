@@ -4,6 +4,9 @@ html{
 }
 body{
     height:100%; /* force the BODY element to match the height of the HTML element */
+    text-align: center; 
+    padding:0pt; 
+    margin: 0pt; 
 }
 
 nav#landmarks {
@@ -14,14 +17,13 @@ nav#page-list {
     display:none;
 }
 
-ol {
+ol, ul {
     list-style-type: none;
 	text-align: center;
 	list-style-position: inside;
 	margin-left: 0; 
 	padding-left: 0;
 }
-
 
 p {
 font-family: "literata";

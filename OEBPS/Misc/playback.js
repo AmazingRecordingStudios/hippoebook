@@ -77,3 +77,30 @@ function getDefaultAudioForTesting(element) {
 	
 	return defaultAudio;
 }
+
+function opencontextmenu(element) {
+	var menu = document.getElementById('menu');
+	menu.style.display = 'block';
+
+        // overwrite the right click event
+        document.addEventListener("contextmenu", showMenuEventListener);
+
+       // close the menu on document click
+        // TODO verify if the click is in the menu boundaries
+        document.addEventListener("click", hideMenuEventListener);
+
+		function showMenuEventListener(e) {
+            e.preventDefault();         
+            // show the menu        
+            menu.style.display = 'block';
+            // set the left and top position based on mouse event coordonates
+            menu.style.left = e.x + 'px';
+            menu.style.top = e.y + 'px';   
+		}
+
+
+		function hideMenuEventListener(e) {
+			menu.style.display = 'none';
+			document.removeEventListener("click", hideMenuEventListener);
+		}
+}
