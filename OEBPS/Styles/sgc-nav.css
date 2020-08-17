@@ -184,3 +184,7 @@ span.case {
 .jsplaying {
 	background-color: #FFFF00;
 }
+
+th, td {
+  padding: 8px;
+}
