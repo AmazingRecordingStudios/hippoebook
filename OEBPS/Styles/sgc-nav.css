@@ -1,8 +1,19 @@
+@font-face {
+font-family: "literata";
+font-weight: normal;/*400*/
+font-style: normal;
+src: url(../Fonts/Literata-Regular.ttf);
+}
+
 html{
     min-height:100%;/* make sure it is at least as tall as the viewport */
     position:relative;
 }
-body{
+
+body {
+	font-family: "literata";
+	/*font-size: 1.00em;
+	//text-align: justify;*/
     height:100%; /* force the BODY element to match the height of the HTML element */
     text-align: center; 
     padding:0pt; 
@@ -25,18 +36,6 @@ ol, ul {
 	padding-left: 0;
 }
 
-p {
-font-family: "literata";
-/*font-size: 1.00em;
-//text-align: justify;*/
-}
-
-@font-face {
-font-family: "literata";
-font-weight: normal;/*400*/
-font-style: normal;
-src: url(../Fonts/Literata-Regular.ttf);
-}
 
 .flex-container {
   display: flex;
