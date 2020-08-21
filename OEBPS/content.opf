@@ -4,27 +4,18 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-21T08:27:45Z</meta>
-    <meta property="media:duration" refines="#s001">0:00:02.844</meta>
-    <meta property="media:duration">0:00:02.844</meta>
-    <meta property="media:active-class">-epub-media-overlay-active</meta>
-    <meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
+    <meta property="dcterms:modified">2020-08-21T20:58:45Z</meta>
     <meta content="1.3.0" name="Sigil version" />
     <meta name="cover" content="cover-orpheus.jpg" />
   </metadata>
   <manifest>
-    <item id="p001" href="Text/Section0001.xhtml" media-type="application/xhtml+xml" media-overlay="s001" properties="scripted"/>
-    <item id="s001" href="Misc/Section0001.xhtml.smil" media-type="application/smil+xml"/>
     <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
     <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml"/>
-    <item id="p002" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
     <item id="Od.6.8-ekasandron.mp3" href="Audio/Od.6.8-ekasandron.mp3" media-type="audio/mpeg"/>
-    <item id="epigram64_asclepiades.mp3" href="Audio/ancientgreek_epigram64_asclepiades_zd.mp3" media-type="audio/mpeg"/>
-    <item id="odyssey6_01_homer.mp3" href="Audio/odyssey6_01_homer.mp3" media-type="audio/mpeg"/>
     <item id="playback.js" href="Misc/playback.js" media-type="application/javascript"/>
     <item id="Literata-Regular.ttf" href="Fonts/Literata-Regular.ttf" media-type="font/ttf"/>
     <item id="CopyrightNotice.xhtml" href="Text/CopyrightNotice.xhtml" media-type="application/xhtml+xml"/>
-    <item id="MainMenu.xhtml" href="Text/MainMenu.xhtml" media-type="application/xhtml+xml" properties="nav scripted"/>
+    <item id="MainMenu.xhtml" href="Text/MainMenu.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="cover-orpheus.jpg" href="Images/cover-orpheus.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="cover" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="Credits" href="Text/Credits.xhtml" media-type="application/xhtml+xml"/>
@@ -32,22 +23,22 @@
     <item id="News" href="Text/News.xhtml" media-type="application/xhtml+xml"/>
     <item id="Playlists" href="Text/Playlists.xhtml" media-type="application/xhtml+xml"/>
     <item id="Introduction" href="Text/Introduction.xhtml" media-type="application/xhtml+xml"/>
-    <item id="PL0001Declensions" href="Text/PL0001Declensions.xhtml" media-type="application/xhtml+xml"/>
-    <item id="PL0002" href="Text/PL0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="PL0001Declensions" href="Text/PL0001Declensions.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="Od.6.1-diosodisseus.mp3" href="Audio/Od.6.1-diosodisseus.mp3" media-type="audio/mpeg"/>
+    <item id="Od.6.13-glaukopis.mp3" href="Audio/Od.6.13-glaukopis.mp3" media-type="audio/mpeg"/>
+    <item id="PL0002.xhtml" href="Text/PL0002.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
   </manifest>
   <spine>
     <itemref idref="cover"/>
     <itemref idref="CopyrightNotice.xhtml"/>
     <itemref idref="MainMenu.xhtml"/>
-    <itemref idref="p001"/>
+    <itemref idref="Playlists"/>
     <itemref idref="nav.xhtml" linear="no"/>
-    <itemref idref="p002"/>
     <itemref idref="Credits"/>
     <itemref idref="About"/>
     <itemref idref="News"/>
-    <itemref idref="Playlists"/>
     <itemref idref="Introduction"/>
     <itemref idref="PL0001Declensions"/>
-    <itemref idref="PL0002"/>
+    <itemref idref="PL0002.xhtml"/>
   </spine>
 </package>

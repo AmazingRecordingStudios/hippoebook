@@ -121,7 +121,7 @@ p.greekLongText {
   margin-left: 10px;
 }
 
-#citationRef {
+p.citationRef {
   align-self: center;
   text-align: center;
   padding: 2px;
@@ -150,7 +150,7 @@ p.translation {
   font-size: 20px;
 }
 
-#linguisticNote {
+p.linguisticNote {
   align-self: center;
   padding: 10px;
   margin-right: 10px;
@@ -160,7 +160,7 @@ p.translation {
   font-size: 20px;
 }
 
-#eeComment {
+p.eeComment {
   align-self: center;
   padding: 10px;
   margin-right: 10px;
