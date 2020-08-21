@@ -103,10 +103,11 @@ p.greekWordList {
   margin-left: 10px;
 }
 
-p.greekShortText {
+h2.greekShortText {
   text-align: center;
   padding: 10px;
   font-size: 32px;
+  font-weight: normal;
   text-indent: 0px;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -167,6 +168,12 @@ p.translation {
   text-align: justify;
   text-justify: inter-word;
   font-size: 20px;
+}
+
+p.pageCounter {
+
+	text-align: left;
+	padding: 16px;
 }
 
 span.case {
