@@ -1,5 +1,5 @@
 @font-face {
-font-family: "literata";
+font-family: "literata"; /* todo add fallback font for kobo devices, Greek text with literata is not displayed*/
 font-weight: normal;/*400*/
 font-style: normal;
 src: url(../Fonts/Literata-Regular.ttf);
@@ -11,7 +11,7 @@ html{
 }
 
 body {
-	font-family: "literata";
+	font-family: "literata", Georgia, serif;
 	/*font-size: 1.00em;
 	//text-align: justify;*/
     height:100%; /* force the BODY element to match the height of the HTML element */
@@ -50,6 +50,7 @@ li {
 .headingLargePaddingBottom {
 	padding-bottom: 32pt; 
 	padding-top: 8pt;
+	text-align: center;
 
 	display: block;
     margin-block-start: 1em;
@@ -133,12 +134,12 @@ h2.greekShortText {
   margin-bottom: 0px;
 }
 
-p.greekLongText {
+h2.greekLongText {
   text-align: center;
   padding: 10px;
-  font-size: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 0px;
 }
 
 p.citationRef {
@@ -214,5 +215,13 @@ span.case {
 }
 
 th, td {
+  padding-bottom: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+table {
   padding: 8px;
+  padding-left: 16px;
+  margin-left: 16px;
 }
