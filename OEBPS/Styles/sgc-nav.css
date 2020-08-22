@@ -36,6 +36,10 @@ ol, ul {
 	padding-left: 0;
 }
 
+li {
+	margin: 8;
+}
+
 .dottedList {
     list-style-type: disc;
 	text-align: left;
@@ -194,7 +198,7 @@ p.pageCounter {
 }
 
 span.case {
-  color: #00FF00; /* green */
+  color: #00B31E; /* medium green: #009919 */ /* Emerald green: #028A0F */ /* light-bright green: #00FF00 */
 }
 
 .-epub-media-overlay-active {
