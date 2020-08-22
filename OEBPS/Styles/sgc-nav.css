@@ -15,7 +15,7 @@ body {
 	/*font-size: 1.00em;
 	//text-align: justify;*/
     height:100%; /* force the BODY element to match the height of the HTML element */
-    text-align: center; 
+    /*text-align: center; */
     padding:0pt; 
     margin: 0pt; 
 }
@@ -36,6 +36,23 @@ ol, ul {
 	padding-left: 0;
 }
 
+.dottedList {
+    list-style-type: disc;
+	text-align: left;
+	list-style-position: inside;
+	margin-left: 0; 
+}
+
+.headingLargePaddingBottom {
+	padding-bottom: 32pt; 
+	padding-top: 8pt;
+
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .flex-container {
   display: flex;
