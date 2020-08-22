@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-21T23:48:32Z</meta>
+    <meta property="dcterms:modified">2020-08-22T11:42:26Z</meta>
     <meta content="1.3.0" name="Sigil version" />
     <meta name="cover" content="cover-orpheus.jpg" />
   </metadata>
@@ -23,10 +23,11 @@
     <item id="News" href="Text/News.xhtml" media-type="application/xhtml+xml"/>
     <item id="Playlists" href="Text/Playlists.xhtml" media-type="application/xhtml+xml"/>
     <item id="Introduction" href="Text/Introduction.xhtml" media-type="application/xhtml+xml"/>
-    <item id="PL0001Declensions" href="Text/PL0001Declensions.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="PL-Declensions" href="Text/PL-Declensions.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
     <item id="Od.6.1-diosodisseus.mp3" href="Audio/Od.6.1-diosodisseus.mp3" media-type="audio/mpeg"/>
     <item id="Od.6.13-glaukopis.mp3" href="Audio/Od.6.13-glaukopis.mp3" media-type="audio/mpeg"/>
-    <item id="PL0002.xhtml" href="Text/PL0002.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="PL-Other" href="Text/PL-Other.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="PL-VerbForms.xhtml" href="Text/PL-VerbForms.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover"/>
@@ -38,7 +39,8 @@
     <itemref idref="About"/>
     <itemref idref="News"/>
     <itemref idref="Introduction"/>
-    <itemref idref="PL0001Declensions"/>
-    <itemref idref="PL0002.xhtml"/>
+    <itemref idref="PL-Declensions"/>
+    <itemref idref="PL-Other"/>
+    <itemref idref="PL-VerbForms.xhtml"/>
   </spine>
 </package>
