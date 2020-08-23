@@ -2,18 +2,14 @@
 
 var jsPlayingClass = "jsplaying";
 var fileNameAttribute = 'data-audio-file';
-var defaultAudio = new Audio('../Audio/odyssey6_01_homer.mp3');
-var audios = new Map();
 
-defaultAudio.onended = function() {
-    element.classList.remove(jsPlayingClass);
-};
+var audios = new Map();
 
 function playclip(element) {
 
-	 var id = element.id;
-	
-  	//document.getElementById("demo").innerHTML = "Paragraph changed.";
+	if(! hasAudio(element)) {
+		return;
+	}
 
 	togglePlayPauseAudio(element);
 }
@@ -36,11 +32,30 @@ function togglePlayPauseAudio(element) {
 }
 
 function isPausedOrStopped(element) {
-	//var audio = getDefaultAudioForTesting(element);
 
 	var isPlaying = element.classList.contains(jsPlayingClass);
 
 	return  !(isPlaying); // || audio.paused
+}
+
+function hasAudio(element) {
+
+	// has attribute
+	if(element.hasAttribute(fileNameAttribute)) {
+
+		// has non empty fileName
+		var audioFileName = element.getAttribute(fileNameAttribute);
+		if(! isEmptyString(audioFileName)) {
+			
+			//file name actually works (or raise exception when trying to play)
+			// .. TODO
+
+			return true
+		}
+
+	}
+
+	return false;
 }
 
 function getAudioFullPath(element) {
@@ -71,11 +86,6 @@ function getAudio(element) {
 	};
 
 	return audio;
-}
-
-function getDefaultAudioForTesting(element) {
-	
-	return defaultAudio;
 }
 
 function opencontextmenu(element) {
@@ -136,5 +146,10 @@ function removeEmptyElements(elementClass) {
 function isEmpty(element) {
 	var innerHtml = element.innerHTML;
 	
-	return innerHtml === "";
+	return isEmptyString(innerHtml);
+}
+
+function isEmptyString(string) {
+
+	return string === "";
 }
