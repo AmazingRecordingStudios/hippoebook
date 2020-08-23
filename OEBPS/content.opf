@@ -4,7 +4,7 @@
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-23T09:54:56Z</meta>
+    <meta property="dcterms:modified">2020-08-23T10:05:29Z</meta>
     <meta content="1.3.0" name="Sigil version" />
     <meta name="cover" content="cover-orpheus.jpg" />
   </metadata>
@@ -17,7 +17,7 @@
     <item id="CopyrightNotice.xhtml" href="Text/CopyrightNotice.xhtml" media-type="application/xhtml+xml"/>
     <item id="MainMenu.xhtml" href="Text/MainMenu.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="cover-orpheus.jpg" href="Images/cover-orpheus.jpg" media-type="image/jpeg" properties="cover-image"/>
-    <item id="cover" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="cover" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="Credits" href="Text/Credits.xhtml" media-type="application/xhtml+xml"/>
     <item id="About" href="Text/About.xhtml" media-type="application/xhtml+xml"/>
     <item id="News" href="Text/News.xhtml" media-type="application/xhtml+xml"/>

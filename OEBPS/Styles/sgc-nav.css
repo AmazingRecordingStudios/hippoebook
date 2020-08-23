@@ -28,6 +28,11 @@ nav#page-list {
     display:none;
 }
 
+div.fullscreenimage , div.fullscreenimage img {
+	width: 100%;
+	height: auto;
+}
+
 ol, ul {
     list-style-type: none;
 	text-align: center;
