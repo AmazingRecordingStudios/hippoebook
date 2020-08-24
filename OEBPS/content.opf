@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
+    <dc:creator id="cre">greek101</dc:creator>
+    <meta refines="#cre" property="role" scheme="marc:relators">aut</meta>
+    <dc:date>2020-08-24</dc:date>
+    <dc:description>Read-along audiobook for Ancient Greek</dc:description>
+    <dc:format>epub3 (part 1 with javascript and mp3 files, part 2 with audio media overlays)</dc:format>
+    <dc:language>en-US</dc:language>
+    <dc:publisher>Amazing Recording Studios</dc:publisher>
+    <dc:rights>CC-By-Sa-4.0</dc:rights>
+    <dc:subject>Ancient Greek</dc:subject>
+    <dc:title>Hippo audiobook part 1</dc:title>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-23T15:50:14Z</meta>
+    <meta property="dcterms:modified">2020-08-24T07:56:45Z</meta>
+    <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <meta content="1.3.0" name="Sigil version" />
     <meta name="cover" content="cover-orpheus.jpg" />
   </metadata>
