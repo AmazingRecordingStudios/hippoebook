@@ -169,6 +169,7 @@ p.phonetics {
 p.translation {
   text-align: center;
   padding: 10px;
+  padding-bottom: 2em;
   margin-right: 10px;
   margin-left: 10px;
   /*text-align: justify;*/
@@ -178,7 +179,7 @@ p.translation {
 
 p.linguisticNote {
   align-self: center;
-  padding: 10px;
+  padding-top: 0em; 
   margin-right: 10px;
   margin-left: 10px;
   text-align: justify;
