@@ -13,7 +13,7 @@
     <dc:title>Hippo audiobook part 1</dc:title>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-24T21:48:17Z</meta>
+    <meta property="dcterms:modified">2020-08-27T16:12:53Z</meta>
     <dc:identifier id="BookId">urn:uuid:435ee1fd-ded8-4060-83da-ba4340dac781</dc:identifier>
     <meta content="1.3.0" name="Sigil version" />
     <meta name="cover" content="cover-orpheus.jpg" />
@@ -50,6 +50,7 @@
     <item id="Il.1.47-nukti-eoikos.mp3" href="Audio/Il.1.47-nukti-eoikos.mp3" media-type="audio/mpeg"/>
     <item id="Od.1.51-neesos-dendreiesse.mp3" href="Audio/Od.1.51-neesos-dendreiesse.mp3" media-type="audio/mpeg"/>
     <item id="Od.1.12-pefugontes.mp3" href="Audio/Od.1.12-pefugontes.mp3" media-type="audio/mpeg"/>
+    <item id="PL-Vocabulary" href="Text/PL-Vocabulary.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover"/>
@@ -62,10 +63,12 @@
     <itemref idref="PL-SimplestPhrases"/>
     <itemref idref="PL-TimelessQuotes"/>
     <itemref idref="PL-EpicExpressions"/>
+    <itemref idref="PL-Vocabulary"/>
     <itemref idref="Introduction"/>
     <itemref idref="Credits"/>
     <itemref idref="About"/>
     <itemref idref="News"/>
     <itemref idref="nav.xhtml" linear="no"/>
+    <itemref idref="PL-Other"/>
   </spine>
 </package>
