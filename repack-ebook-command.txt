@@ -1,0 +1,12 @@
+# zip -rX ../my.epub mimetype META-INF/ OEBPS/
+zip -X0 "my.epub" "mimetype"
+zip -Xr "my.epub" "META-INF/" "OEBPS/"
+
+# taken from https://ebooks.stackexchange.com/questions/257/how-to-repack-an-epub-file-from-command-line
+# Without -X you could get the following when validating it with EpubCheck:
+# ERROR: my.epub: Mimetype entry must not have an extra field in its ZIP header
+# If mimetype is not the first in the epub file EpubCheck prints the following:
+# ERROR: my.epub: Mimetype entry missing or not the first in archive
+# The -0 flag makes sure that the mimetype file doesn't get compressed, which is also necessary 
+# for the mimetype file to work as a magical number, otherwise the data at the position where the mimetype 
+# file is expected could be compressed, scrambled gibberish.
