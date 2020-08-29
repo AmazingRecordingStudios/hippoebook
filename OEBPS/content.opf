@@ -13,7 +13,7 @@
     <dc:title>Hippo audiobook part 1</dc:title>
     <dc:language>en</dc:language>
     <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-29T19:56:55Z</meta>
+    <meta property="dcterms:modified">2020-08-29T23:30:24Z</meta>
     <dc:identifier id="BookId">urn:isbn:1230004149309</dc:identifier>
     <meta property="identifier-type" refines="#BookId" scheme="onix:codelist5">15</meta>
     <meta content="1.3.0" name="Sigil version" />
