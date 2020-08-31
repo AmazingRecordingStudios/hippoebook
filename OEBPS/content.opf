@@ -10,10 +10,9 @@
     <dc:publisher>Amazing Recording Studios</dc:publisher>
     <dc:rights>CC-By-Sa-4.0</dc:rights>
     <dc:subject>Ancient Greek</dc:subject>
-    <dc:title>Hippo audiobook part 1</dc:title>
+    <dc:title>Greek 101 audiobook part 1</dc:title>
     <dc:language>en</dc:language>
-    <dc:title>hippo ebook</dc:title>
-    <meta property="dcterms:modified">2020-08-30T18:27:12Z</meta>
+    <meta property="dcterms:modified">2020-08-31T15:45:51Z</meta>
     <dc:identifier id="BookId">urn:isbn:1230004149309</dc:identifier>
     <meta property="identifier-type" refines="#BookId" scheme="onix:codelist5">15</meta>
     <meta content="1.3.0" name="Sigil version" />
@@ -27,8 +26,8 @@
     <item id="Literata-Regular.ttf" href="Fonts/Literata-Regular.ttf" media-type="font/ttf"/>
     <item id="CopyrightNotice.xhtml" href="Text/CopyrightNotice.xhtml" media-type="application/xhtml+xml"/>
     <item id="MainMenu.xhtml" href="Text/MainMenu.xhtml" media-type="application/xhtml+xml"/>
+    <item id="CoverPage" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="cover-orpheus.jpg" href="Images/cover-orpheus.jpg" media-type="image/jpeg" properties="cover-image"/>
-    <item id="cover" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="Credits" href="Text/Credits.xhtml" media-type="application/xhtml+xml"/>
     <item id="About" href="Text/About.xhtml" media-type="application/xhtml+xml"/>
     <item id="News" href="Text/News.xhtml" media-type="application/xhtml+xml"/>
@@ -56,7 +55,7 @@
     <item id="PL-PrepositionsConjunctions" href="Text/PL-PrepositionsConjunctions.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
   </manifest>
   <spine>
-    <itemref idref="cover"/>
+    <itemref idref="CoverPage"/>
     <itemref idref="CopyrightNotice.xhtml"/>
     <itemref idref="MainMenu.xhtml"/>
     <itemref idref="Playlists"/>
@@ -76,4 +75,7 @@
     <itemref idref="nav.xhtml" linear="no"/>
     <itemref idref="PL-Other"/>
   </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+  </guide>
 </package>
