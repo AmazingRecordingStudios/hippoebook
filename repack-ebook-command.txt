@@ -10,3 +10,6 @@ zip -Xr "my.epub" "META-INF/" "OEBPS/"
 # The -0 flag makes sure that the mimetype file doesn't get compressed, which is also necessary 
 # for the mimetype file to work as a magical number, otherwise the data at the position where the mimetype 
 # file is expected could be compressed, scrambled gibberish.
+
+#epub check command:
+java -jar "<path>\epubcheck-4.2.4\epubcheck.jar" greek101-part-1.epub
