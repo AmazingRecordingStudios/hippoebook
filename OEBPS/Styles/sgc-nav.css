@@ -82,6 +82,15 @@ li {
     z-index:-1; /* Remove this line if it's not going to be a background! */
 }
 
+.pagebreak {
+page-break-after:always;
+}
+
+.icon {
+	height: 1em;
+	padding-right: 16px;
+}
+
 #mainQuote {
 /*	justify-self: start;
 	align-self: center;*/
